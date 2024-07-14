@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDescription</key>
+        <string>Configures Wi-Fi settings</string>
+        <key>PayloadDisplayName</key>
+        <string>Wi-Fi</string>
+        <key>PayloadIdentifier</key>
+        <string>com.example.wifi</string>
+        <key>PayloadOrganization</key>
+        <string>Example Org</string>
+        <key>PayloadType</key>
+        <string>com.apple.wifi.managed</string>
+        <key>PayloadUUID</key>
+        <string>12345678-1234-1234-1234-1234567890AB</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SSID_STR</key>
+        <string>ExampleWiFi</string>
+        <key>HIDDEN_NETWORK</key>
+        <false/>
+        <key>AutoJoin</key>
+        <true/>
+        <key>EncryptionType</key>
+        <string>WPA</string>
+        <key>Password</key>
+        <string>examplepassword</string>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Example Wi-Fi Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>87654321-4321-4321-4321-BA0987654321</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
